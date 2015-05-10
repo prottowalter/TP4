@@ -18,7 +18,7 @@ int main (void)
 	if (ferror(stdin))
 		perror("No se pudo seguir leyendo de la entrada debido a un error");
 	
-	nl==0?"No hay lineas":printf("Longitud promedio: %.1f\n", nc/(float) nl);
+	nl==0?printf("No hay lineas"):printf("Longitud promedio: %.1f\n", nc/(float) nl);
 	printf("La cantidad de caracteres leidos es:%d\n",nc);
 	printf("La cantidad de lineas leidas es:%d",nl);
 	
